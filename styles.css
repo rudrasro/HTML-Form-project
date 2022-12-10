@@ -1,0 +1,84 @@
+.div-form{
+    width: 680px;
+    height: 560px;
+    background: #000000;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 10px ;
+}
+.sign-up{
+    font-size: 20px;
+    font-weight: 700;
+    width: 300px;
+    height: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#name{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#email-form{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#password-form{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#recheck-pass{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#dob{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#des{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#disclaim{
+    background:#000000 ;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#sub{
+    background:#ffffff ;
+    border: none;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px
+;
+}
+main hr{
+    width: 570px;
+}
+
+hr:hover{
+    background-color: rgb(14, 73, 235);
+    border: 1px solid blue;
+}

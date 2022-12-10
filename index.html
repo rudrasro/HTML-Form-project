@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <form class="div-form" action="./index.html">
+        <div >
+        <header>
+            <h1 class="sign-up">Sign Up</h1>
+        </header>
+        <br>
+        <main class="main-form">
+
+            <input id="name" type="text" placeholder="Full name" required>
+            <hr>
+            <input id="email-form" type="email" placeholder="Email" required>
+            <hr>
+            <input id="password-form" type="password" placeholder="Password" required>
+            <hr>
+            <input id="recheck-pass" type="password" placeholder="Confirm Password" required>
+            <hr>
+            <input id="dob" type="date" value="DOB" required>
+            <hr>
+            <div id="des">
+                <input class="rad" type="radio" name="designation" value="Student" required>
+                <label for="Student">Student</label>
+                <input type="radio" name="designation" value="Employee" required>
+                <label for="Employee">Employee</label>
+            </div>
+
+            <br>
+            <br>
+            <div id="disclaim">
+                <input type="checkbox" name="disclaimer" value="disclamer" required>
+                <label for="disclaimer">I agree to all the Terms and Conditions</label>
+            </div>
+
+            <br>
+            <br>
+            <input id="sub" type="Submit" value="Sign Up">
+
+        </main>
+    </form>
+
+    </div>
+
+</body>
+
+</html>
